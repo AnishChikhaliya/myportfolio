@@ -1,8 +1,9 @@
-import LogoTitle from '../../assets/images/logo-s.png';
+import LogoTitle from '../../assets/images/logo-A.png';
 import React, { useState} from 'react';
 import { Link } from 'react-router-dom';  
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
+import Logo from './Logo';
 
 const Home = () => {
   
@@ -26,7 +27,7 @@ const Home = () => {
 
    
   setTimeout(() => {
-        setLetterClass('text-animate-hover')
+      setLetterClass('text-animate-hover')
   }, 4000);
   
   
@@ -54,6 +55,7 @@ const Home = () => {
             <Link to="/contact" className="flat-button">CONTACT ME</Link>
 
        </div> 
+       <Logo />
     </div>
   );
 }

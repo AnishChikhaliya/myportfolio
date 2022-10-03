@@ -14,11 +14,11 @@
 img {
     display: block;
     margin: 10px auto;
-    width: 20px;
+    width: 25px;
     height: auto;
 
 &.sub-logo{
-    width: 50px;
+    width: 40px;
 }    
 }
 
@@ -54,7 +54,6 @@ nav {
             &:after{
                 opacity: 1;
             }
-
         }
 
         &:after{
