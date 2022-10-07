@@ -24,19 +24,20 @@ const Sidebar = () => {
                     <FontAwesomeIcon icon={faEnvelope} color ="#4d4d46"/>
                 </NavLink>  
             </nav>
+            <div className="social-links">
             <ul>
                 <li>
                     <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/anish-chikhaliya-62b612218/'>
-                        <FontAwesomeIcon icon={faLinkedin} color ="#4d4d46"/>
+                        <FontAwesomeIcon icon={faLinkedin} color ="#ffd700"/>
                     </a>
                 </li>
                 <li>
                     <a target='_blank' rel="noreferrer" href='https://github.com/AnishChikhaliya'>
-                        <FontAwesomeIcon icon={faGithub} color ="#4d4d46"/>
+                        <FontAwesomeIcon icon={faGithub} color ="#ffd700"/>
                     </a>
                 </li>
             </ul>
-         
+            </div>
         </div>
     );
 }

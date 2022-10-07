@@ -39,7 +39,25 @@ const About = () => {
                 so I have something to strive towards. I am not comfortable with settling, and I am always 
                 looking for an opportunity to do better and achieve greatness.    
                 </p>
+
+                <h1>
+                <AnimatedLatters 
+                        letterClass={letterClass}
+                        strArray={['E', 'd', 'u', 'c', 'a', 't', 'i', 'o', 'n']} 
+                        idx={15} />
+                </h1>
+                
+                <p>
+                I have completed my Bachelors in Information Technology from C.G. Patel Institute of Technology / UKA Tarsadia University.
+                </p>
+                <p>
+                At G.G. Zadafiya Vidhyalaya, Surat I have completed my Secondary School Certificate from Gujarat Secondary and Higher Secondary Education Board.
+                </p>
+                <p>
+                At SPV School, Surat I have completed my Secondary School Certificate from Gujarat Secondary and Higher Secondary Education Board.  
+                </p>
             </div>
+            
             <div className="stage-cube-cont">
                 <div className="cubespinner">
                         <div className="face1">
