@@ -60,7 +60,7 @@
     
 
         &::before {
-            content : '<h1>';
+            // content : '<h1>';
             font-family : 'La Belle Aurore';
             font-size : 18px;
             position : absolute;
@@ -71,7 +71,7 @@
         }
 
         &::after {
-            content : '<h1/>';
+            // content : '<h1/>';
             font-family : 'La Belle Aurore';
             font-size : 18px;
             line-height : 18px;

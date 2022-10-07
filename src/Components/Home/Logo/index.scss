@@ -1,5 +1,5 @@
 .logo-container{
-    z-index: 0;
+    z-index: 1;
     width: 400px;
     height: 609px;
     position: absolute;
@@ -10,7 +10,7 @@
     margin: auto;
     opacity: 1;
 
-    .solid-logo{
+    .solid-logo{  
         position: absolute;
         top: auto;
         right: auto;
